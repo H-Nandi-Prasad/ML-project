@@ -23,21 +23,22 @@ This repository hosts an end-to-end machine learning project that goes from data
 
 The goal is to structure a real-world ML workflow within a reproducible and maintainable codebase.
 
----
 
 ## Project Structure
 
 Here’s an overview of key files and directories:
 
-├── artifacts/ # (Optional) generated model files, logs, etc.
-├── catboost_info/ # Info (metadata) from CatBoost (if used)
-├── notebook/ # Jupyter notebooks – exploratory analysis, prototyping
-├── src/ # Core source code (modeling, utils, data pipelines)
-├── templates/ # (If applicable) templates for UI / frontend (if serving)
-├── application.py # Entry point for the app / serving model
-├── requirements.txt # Python dependencies
-├── setup.py # Setup script (for pip installable package)
-└── README.md # This file
+```text
+├── artifacts/          # (Optional) generated model files, logs, etc.
+├── catboost_info/      # Info (metadata) from CatBoost (if used)
+├── notebook/           # Jupyter notebooks – exploratory analysis, prototyping
+├── src/                # Core source code (modeling, utils, data pipelines)
+├── templates/          # Templates for UI / frontend (if serving)
+├── application.py      # Entry point for the app / serving model
+├── requirements.txt    # Python dependencies
+├── setup.py            # Setup script (for pip installable package)
+└── README.md           # This file
+
 
 
 You may expand or rename modules under `src/` such as `data`, `models`, `evaluation`, `utils` etc.
